@@ -1,0 +1,95 @@
+[ 2][t 6][1603055049.094957590][Timer.cpp:44][#2][!Td][&duration > max_duration_]	SLOW: [name:Encrypt SQLite database][duration:2224.7ms]
+[ 2][t 6][1603055049.163201332][TdDb.cpp:315][#2][!Td]	Got PRAGMA user_version = 0
+[ 2][t 6][1603055049.163310289][DialogDb.cpp:87][#2][!Td]	Drop old pmc dialog_db
+[ 2][t 6][1603055049.163601160][DialogDb.cpp:93][#2][!Td]	Drop dialog_db [version:0][current_db_version:11]
+[ 2][t 6][1603055049.167251587][TdDb.cpp:342][#2][!Td]	Set PRAGMA user_version = 11
+[ 2][t 6][1603055049.201406002][AuthDataShared.cpp:109][#2][!Td]	DcId{1} [auth_key_id:0][state:Empty][created_at:0.000000]
+[ 2][t 6][1603055049.201987028][SessionMultiProxy.cpp:121][#2][!SessionMultiProxy:1:main]	[session_count:1]
+[ 2][t 6][1603055049.202054501][Session.cpp:145][#2][!SessionProxy:1:main]	Generate new session_id 13679046579520666921 for auth key 0 for main DC1
+[ 2][t 6][1603055050.951911449][AuthDataShared.cpp:109][#2][!Session:1:main]	DcId{1} [auth_key_id:8209542709876291246][state:NoAuth][created_at:1603055050.000000]
+[ 2][t 6][1603055050.952006340][Session.cpp:1178][#2][!Session:1:main]	Update auth key in session_id 13679046579520666921 to 8209542709876291246
+[ 2][t 6][1603055051.329794645][AuthDataShared.cpp:109][#2][!Session:1:main]	DcId{4} [auth_key_id:0][state:Empty][created_at:0.000000]
+[ 2][t 6][1603055051.329933405][SessionMultiProxy.cpp:121][#2][!SessionMultiProxy:4:main]	[session_count:1]
+[ 2][t 6][1603055051.329968929][Session.cpp:145][#2][!SessionProxy:4:main]	Generate new session_id 10983786844774122123 for auth key 0 for main DC4
+[ 2][t 6][1603055052.865561008][AuthDataShared.cpp:109][#2][!Session:4:main]	DcId{4} [auth_key_id:864231450724921975][state:NoAuth][created_at:1603055051.000000]
+[ 2][t 6][1603055052.865642548][Session.cpp:1178][#2][!Session:4:main]	Update auth key in session_id 10983786844774122123 to 864231450724921975
+[ 2][t 6][1603055080.613785028][AuthDataShared.cpp:109][#2][!Session:4:main]	DcId{4} [auth_key_id:864231450724921975][state:OK][created_at:1603055051.000000]
+[ 2][t 6][1603055081.048570633][Session.cpp:145][#2][!SessionProxy:1:main]	Generate new session_id 2841124646659798489 for auth key 8209542709876291246 for DC1
+[ 2][t 6][1603055081.722262144][AuthDataShared.cpp:109][#2][!Session:1:main]	DcId{1} [auth_key_id:8209542709876291246][state:OK][created_at:1603055050.000000]
+[ 2][t 6][1603055081.771684170][Td.cpp:4234][#2][!Td]	Close Td in state 2
+[ 2][t 6][1603055081.771756649][Td.cpp:4088][#2][!Td]	Have no request actors
+[ 2][t 6][1603055081.771998882][Td.cpp:4009][#2][!Td]	ON_ACTORS_CLOSED
+[ 2][t 6][1603055081.875740528][Td.cpp:4066][#2][!Td]	ON_CLOSED
+[ 2][t 6][1603055081.875790596][Td.cpp:4076][#2][!Td]	Stop Td
+[ 2][t 7][1603055094.362272263][TdDb.cpp:315][#3][!Td]	Got PRAGMA user_version = 11
+[ 2][t 7][1603055094.362686396][AuthDataShared.cpp:109][#3][!Td]	DcId{4} [auth_key_id:864231450724921975][state:OK][created_at:1603055051.000000]
+[ 2][t 7][1603055094.362998486][SessionMultiProxy.cpp:121][#3][!SessionMultiProxy:4:main]	[session_count:1]
+[ 2][t 7][1603055094.363038301][Session.cpp:145][#3][!SessionProxy:4:main]	Generate new session_id 17419469846174738813 for auth key 864231450724921975 for main DC4
+[ 2][t 7][1603055095.662142515][Td.cpp:4234][#3][!Td]	Close Td in state 2
+[ 2][t 7][1603055095.662236214][Td.cpp:4088][#3][!Td]	Have no request actors
+[ 2][t 7][1603055095.662492990][Td.cpp:4009][#3][!Td]	ON_ACTORS_CLOSED
+[ 2][t 7][1603055095.773762226][Td.cpp:4066][#3][!Td]	ON_CLOSED
+[ 2][t 7][1603055095.773860931][Td.cpp:4076][#3][!Td]	Stop Td
+[ 2][t 6][1603055107.769556522][TdDb.cpp:315][#4][!Td]	Got PRAGMA user_version = 11
+[ 2][t 6][1603055107.770102739][AuthDataShared.cpp:109][#4][!Td]	DcId{4} [auth_key_id:864231450724921975][state:OK][created_at:1603055051.000000]
+[ 2][t 6][1603055107.770431280][SessionMultiProxy.cpp:121][#4][!SessionMultiProxy:4:main]	[session_count:1]
+[ 2][t 6][1603055107.770589590][Session.cpp:145][#4][!SessionProxy:4:main]	Generate new session_id 5553466670366036535 for auth key 864231450724921975 for main DC4
+[ 2][t 6][1603055108.308100462][Td.cpp:4234][#4][!Td]	Close Td in state 2
+[ 2][t 6][1603055108.308184624][Td.cpp:4088][#4][!Td]	Have no request actors
+[ 2][t 6][1603055108.308390856][Td.cpp:4009][#4][!Td]	ON_ACTORS_CLOSED
+[ 2][t 6][1603055108.414711952][Td.cpp:4066][#4][!Td]	ON_CLOSED
+[ 2][t 6][1603055108.414779186][Td.cpp:4076][#4][!Td]	Stop Td
+[ 2][t 6][1603055111.259917259][TdDb.cpp:315][#5][!Td]	Got PRAGMA user_version = 11
+[ 2][t 6][1603055111.260506153][AuthDataShared.cpp:109][#5][!Td]	DcId{4} [auth_key_id:864231450724921975][state:OK][created_at:1603055051.000000]
+[ 2][t 6][1603055111.260814905][SessionMultiProxy.cpp:121][#5][!SessionMultiProxy:4:main]	[session_count:1]
+[ 2][t 6][1603055111.260878325][Session.cpp:145][#5][!SessionProxy:4:main]	Generate new session_id 10506480756870987899 for auth key 864231450724921975 for main DC4
+[ 2][t 6][1603055111.795286894][Td.cpp:4234][#5][!Td]	Close Td in state 2
+[ 2][t 6][1603055111.795367241][Td.cpp:4088][#5][!Td]	Have no request actors
+[ 2][t 6][1603055111.795618773][Td.cpp:4009][#5][!Td]	ON_ACTORS_CLOSED
+[ 2][t 6][1603055111.796796322][Td.cpp:4066][#5][!Td]	ON_CLOSED
+[ 2][t 6][1603055111.796837568][Td.cpp:4076][#5][!Td]	Stop Td
+[ 2][t 6][1603055113.843960524][TdDb.cpp:315][#6][!Td]	Got PRAGMA user_version = 11
+[ 2][t 6][1603055113.844441414][AuthDataShared.cpp:109][#6][!Td]	DcId{4} [auth_key_id:864231450724921975][state:OK][created_at:1603055051.000000]
+[ 2][t 6][1603055113.844745398][SessionMultiProxy.cpp:121][#6][!SessionMultiProxy:4:main]	[session_count:1]
+[ 2][t 6][1603055113.844820261][Session.cpp:145][#6][!SessionProxy:4:main]	Generate new session_id 10797080417743818035 for auth key 864231450724921975 for main DC4
+[ 2][t 6][1603055114.379088879][Td.cpp:4234][#6][!Td]	Close Td in state 2
+[ 2][t 6][1603055114.379132748][Td.cpp:4088][#6][!Td]	Have no request actors
+[ 2][t 6][1603055114.379282713][Td.cpp:4009][#6][!Td]	ON_ACTORS_CLOSED
+[ 2][t 6][1603055114.380124092][Td.cpp:4066][#6][!Td]	ON_CLOSED
+[ 2][t 6][1603055114.380143642][Td.cpp:4076][#6][!Td]	Stop Td
+[ 2][t 8][1603055155.213584185][TdDb.cpp:315][#7][!Td]	Got PRAGMA user_version = 11
+[ 2][t 8][1603055155.214039803][AuthDataShared.cpp:109][#7][!Td]	DcId{4} [auth_key_id:864231450724921975][state:OK][created_at:1603055051.000000]
+[ 2][t 8][1603055155.214355469][SessionMultiProxy.cpp:121][#7][!SessionMultiProxy:4:main]	[session_count:1]
+[ 2][t 8][1603055155.214905739][Session.cpp:145][#7][!SessionProxy:4:main]	Generate new session_id 16890550298928907275 for auth key 864231450724921975 for main DC4
+[ 2][t 8][1603055155.754583836][Td.cpp:4234][#7][!Td]	Close Td in state 2
+[ 2][t 8][1603055155.754637480][Td.cpp:4088][#7][!Td]	Have no request actors
+[ 2][t 8][1603055155.754791737][Td.cpp:4009][#7][!Td]	ON_ACTORS_CLOSED
+[ 2][t 8][1603055155.796656132][Td.cpp:4066][#7][!Td]	ON_CLOSED
+[ 2][t 8][1603055155.796698093][Td.cpp:4076][#7][!Td]	Stop Td
+[ 2][t 8][1603055193.342493296][TdDb.cpp:315][#8][!Td]	Got PRAGMA user_version = 11
+[ 2][t 8][1603055193.343011856][AuthDataShared.cpp:109][#8][!Td]	DcId{4} [auth_key_id:864231450724921975][state:OK][created_at:1603055051.000000]
+[ 2][t 8][1603055193.343496561][SessionMultiProxy.cpp:121][#8][!SessionMultiProxy:4:main]	[session_count:1]
+[ 2][t 8][1603055193.343607903][Session.cpp:145][#8][!SessionProxy:4:main]	Generate new session_id 14504316965244321236 for auth key 864231450724921975 for main DC4
+[ 2][t 8][1603055193.878684998][Td.cpp:4234][#8][!Td]	Close Td in state 2
+[ 2][t 8][1603055193.878749371][Td.cpp:4088][#8][!Td]	Have no request actors
+[ 2][t 8][1603055193.878906250][Td.cpp:4009][#8][!Td]	ON_ACTORS_CLOSED
+[ 2][t 8][1603055193.982758522][Td.cpp:4066][#8][!Td]	ON_CLOSED
+[ 2][t 8][1603055193.982813358][Td.cpp:4076][#8][!Td]	Stop Td
+[ 2][t 7][1603055338.142160892][TdDb.cpp:315][#9][!Td]	Got PRAGMA user_version = 11
+[ 2][t 7][1603055338.142730713][AuthDataShared.cpp:109][#9][!Td]	DcId{4} [auth_key_id:864231450724921975][state:OK][created_at:1603055051.000000]
+[ 2][t 7][1603055338.143011093][SessionMultiProxy.cpp:121][#9][!SessionMultiProxy:4:main]	[session_count:1]
+[ 2][t 7][1603055338.143059969][Session.cpp:145][#9][!SessionProxy:4:main]	Generate new session_id 1492012205890681155 for auth key 864231450724921975 for main DC4
+[ 2][t 7][1603055338.677605391][Td.cpp:4234][#9][!Td]	Close Td in state 2
+[ 2][t 7][1603055338.677656889][Td.cpp:4088][#9][!Td]	Have no request actors
+[ 2][t 7][1603055338.677848816][Td.cpp:4009][#9][!Td]	ON_ACTORS_CLOSED
+[ 2][t 7][1603055338.715113640][Td.cpp:4066][#9][!Td]	ON_CLOSED
+[ 2][t 7][1603055338.715164661][Td.cpp:4076][#9][!Td]	Stop Td
+[ 2][t 5][1603055346.081902266][TdDb.cpp:315][#10][!Td]	Got PRAGMA user_version = 11
+[ 2][t 5][1603055346.082559824][AuthDataShared.cpp:109][#10][!Td]	DcId{4} [auth_key_id:864231450724921975][state:OK][created_at:1603055051.000000]
+[ 2][t 5][1603055346.082850933][SessionMultiProxy.cpp:121][#10][!SessionMultiProxy:4:main]	[session_count:1]
+[ 2][t 5][1603055346.082899094][Session.cpp:145][#10][!SessionProxy:4:main]	Generate new session_id 7430179835471025713 for auth key 864231450724921975 for main DC4
+[ 2][t 5][1603055346.632924795][Td.cpp:4234][#10][!Td]	Close Td in state 2
+[ 2][t 5][1603055346.632965326][Td.cpp:4088][#10][!Td]	Have no request actors
+[ 2][t 5][1603055346.633089542][Td.cpp:4009][#10][!Td]	ON_ACTORS_CLOSED
+[ 2][t 5][1603055346.633877277][Td.cpp:4066][#10][!Td]	ON_CLOSED
+[ 2][t 5][1603055346.633895636][Td.cpp:4076][#10][!Td]	Stop Td
